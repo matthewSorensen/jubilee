@@ -153,7 +153,7 @@ M140 H0                             ; Assign H0 to the bed
 
 ; Tools
 ; Heaters and sensors must be wired to main board for PID tuning (3.2.0-beta4)
-M308 S1 P"0.temp0" Y"thermistor" T100000 B4725 C7.060000e-8 R2200 A"T0"
+M308 S1 P"0.temp1" Y"thermistor" T100000 B4725 C7.060000e-8 R2200 A"T0"
 M950 H1 C"0.out3" T1                      ; Heater for extruder out tool 0
 ; M307 H1 A1252.3 C361.3 D5.3 V24.0 B0    ; from pid tuning without sock
 M307 H1 A811.4 C309.4 D4.7 V24.0 B0       ; With sock
